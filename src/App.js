@@ -4,6 +4,9 @@ import Content from './components/Content';
 // import Example from './components/Chart';
 import MyChart from './components/Chart';
 import SideBar from './components/Sidebar';
+import ToolBar from './components/ToolBar';
+import Details from './components/Details';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
         <MyChart />
         <SideBar />
       </div>
+      <ToolBar />
+      <Details star="1" view="1292" published="Aug28,2020" Updated="Dec2,2022" />
+      <Footer />
     </div >
   );
 }
